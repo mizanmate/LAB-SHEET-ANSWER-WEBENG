@@ -1,0 +1,39 @@
+body{
+  background-color: aquamarine;
+  background-clip: content-box;
+}
+
+div {
+  background-image: url("img/FK4.png");
+  background-repeat: no-repeat;
+  background-clip: content-box;
+}
+
+h1 {
+  color: white;
+  margin-left: 20px;
+}
+
+h2 {
+  color: white;
+  margin-left: 20px;
+}
+
+h3 {
+  color: black;
+  margin-left: 20px;
+}
+
+p {
+  color: white;
+  margin-left: 20px;
+}
+
+ul {
+  color: black;
+  background-color: aquamarine;
+}
+
+footer{
+  background-color: white;
+}
