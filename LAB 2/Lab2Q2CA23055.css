@@ -1,0 +1,58 @@
+caption{
+    color: olivedrab;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+img{
+    margin: 10px;
+    height: 200px;
+    width: 150px;
+}
+
+table{
+    border: 3px darkolivegreen;
+    border-style: solid;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.heading{
+    border: 3px darkolivegreen;
+    background-color: olivedrab;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+th{
+    border: 3px darkolivegreen;
+    background-color: rgba(173, 230, 61, 0.548);
+    text-align: center;
+    color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.subheading{
+    border: 3px darkolivegreen;
+    background-color: rgba(173, 230, 61, 0.548);
+    font weight: bold;
+    color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+td{
+    border: 3px darkolivegreen;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    margin: 20px;
+}
