@@ -40,7 +40,7 @@ button:hover{
   padding: 0;
   background-image: url("img/FK4.png");
   background-repeat: no-repeat;
-  background-clip: border-box;
+  background-size: cover;
 }
 
 .stats{
