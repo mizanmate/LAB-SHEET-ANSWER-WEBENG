@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+  background-clip: content-box;
+}
+
+button{
+  background-color: transparent;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover{
+  color: darkcyan;
+  cursor: pointer;
+}
+
+.nostylelink{
+  text-decoration: none;
+  color: inherit;
+}
+
+.title{
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.header{
+  padding: 10px;
+  background-color: white;
+}
+
+.maincontent {
+  margin: 0;
+  padding: 0;
+  background-image: url("img/FK4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stats{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px
+}
+
+h1 {
+  color: white;
+  margin-left: 10px;
+}
+
+.Top {
+  color: white;
+  margin-left: 10px;
+}
+
+.Bottom {
+  color: black;
+  margin-left: 10px;
+}
+
+p {
+  color: white;
+  margin-left: 10px;
+}
+
+hr {
+  color: antiquewhite;
+}
+
+ul {
+  color: black;
+  background-color: aquamarine;
+}
+
+footer{
+  padding: 10px;
+  background-color: white;
+}
