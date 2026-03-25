@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="LAB Sheet 1 Q3">
+		<meta name="keywords" content="HTML">
+		<meta name="author" content="Mohd Helmizan">
+		<title>LAB 1 Question 3</title>
+	</head>
+	
+	<body>
+		<table>
+		<tr>
+			<th colspan="2"><h1> Your personal details</h1></th>
+		</tr>
+		<tr>
+			<th>Your Name:</th>
+			<td><input type="text" name="firstname"></td>
+		</tr>
+		<tr>
+			<th>Student Number:</th>
+			<td><input type="text" name="MatricNumber"></td>
+		</tr>
+		<tr>
+			<th>Program:</th>
+			<th>
+				<select name = "Program">
+					<option selected = "selected">*Select Program*</option>
+					<option>Bachelor of Computer Science (Software Engineering) with Honours</option>
+					<option>Bachelor of Computer Science (Computer System & Networking) with Honours</option>
+					<option>Bachelor of Computer Science (Graphic & Multimedia Technology) with Honours</option>
+					<option>Bachelor of Computer Science (CyberSecurity) with Honours</option>
+  				</select>
+			</th>
+		</tr>
+		<tr>
+			<th>Gender:</th>
+			<td>
+				<input type="radio" name="Gender" value="Male">Male
+				<input type="radio" name="Gender" value="Female">Female
+			</td>
+		</tr>
+		<tr>
+			<th>Hobby:</th>
+			<td>
+				<input type="checkbox" name="Reading" value="Reading">Reading
+				<input type="checkbox" name="Listening Music" value="Listening Music">Listening Music
+				<input type="checkbox" name="Outdoor Activities" value="Outdoor Activities">Outdoor Activities
+				<input type="checkbox" name="Board Games" value="Board Games">Board Games
+			</td>
+		</tr>
+		<tr>
+			<th>Comments:</th>
+			<td><textarea name="Comments" rows="2" cols="30"></textarea></td>
+		</tr>
+		<tr>
+			<th colspan="2">
+				<input type="submit" name="Submit">
+				<input type="reset" name="Reset">
+			</th>
+		</tr>
+		</table>
+	</body>
+</html>
