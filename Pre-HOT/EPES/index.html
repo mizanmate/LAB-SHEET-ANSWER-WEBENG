@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="styles/style.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="PRE-HOT CA23055">
+        <meta name="keywords" content="HTML">
+        <meta name="author" content="Mohd Helmizan">
+        <title>Horizon Tech</title>
+    </head>
+
+
+    <body>
+        <header>
+            <img src="img/horizon-logo.png" alt="Horizon Tech Logo">
+            <h1>Horizon Tech Solutions</h1>
+            <nav>
+                <button><a href="pages/After_Submit.html" class="nostyle">Dashboard</a></button>
+                <button><a href="index.html" class="nostyle">Input Metrics</a></button>
+                <button><a href="pages/After_Submit.html" class="nostyle">Reports</a></button>
+                <button><a href="" class="nostyle">Top Performers</a></button>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Performance Dashboard</h2>
+
+            <div class="card">
+                <div class="cardinfo">
+                    <p class="wordalign">Total Employees: 50</p>
+                </div>
+                <div class="cardinfo">
+                    <p>Avg Performance Score: 87%</p>
+                </div>
+                <div class="highlight">
+                    <p><b> Performer: Jane Doe</b></p>
+                </div>
+            </div>
+            
+            <h2>Enter Performance Metrics</h2>
+
+            <div class="submission">
+
+                <form action="pages/After_Submit.html">
+                    <label>Employee Name: <br><input type="text" required /></label>
+                    <br>
+                    <label>Project Completion Rate (%): <br><input type="number" required /></label>
+                    <br>
+
+                    <label>Customer Satisfaction (1-10): <br><input list="Custscore" />
+                        <datalist id="Custscore">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                            <option value="6">
+                            <option value="7">
+                            <option value="8">
+                            <option value="9">
+                            <option value="10">
+                        </datalist>
+                    </label>
+
+                    <br>
+                    <label>Team Collaboration (1-10): <br><input list="TeamScore" />
+                        <datalist id="TeamScore">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                            <option value="6">
+                            <option value="7">
+                            <option value="8">
+                            <option value="9">
+                            <option value="10">
+                        </datalist>
+                    </label>
+
+                    <br>
+                    <input type="submit" class="subbutton" value="Submit" />
+                </form>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Horizon Tech Solutions. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
