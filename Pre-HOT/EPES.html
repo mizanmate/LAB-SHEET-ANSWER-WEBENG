@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EPES - Horizon Tech</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="Horizon Tech Logo" class="logo" />
+      <h1>Horizon Tech Solutions</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#input">Input Metrics</a></li>
+        <li><a href="#report">Reports</a></li>
+        <li><a href="#top">Top Performers</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Dashboard Section -->
+    <section id="dashboard">
+      <h2>Performance Dashboard</h2>
+      <div class="dashboard-grid">
+        <div class="card">Total Employees: 50</div>
+        <div class="card">Avg Performance Score: 87%</div>
+        <div class="card highlight">Top Performer: Jane Doe</div>
+      </div>
+    </section>
+
+    <!-- Input Metrics Section -->
+    <section id="input">
+      <h2>Enter Performance Metrics</h2>
+      <form>
+        <label>Employee Name: <input type="text" required /></label>
+        <label>Project Completion Rate (%): <input type="number" min="0" max="100" required /></label>
+        <label>Customer Satisfaction (1-10): <input type="number" min="1" max="10" required /></label>
+        <label>Team Collaboration (1-10): <input type="number" min="1" max="10" required /></label>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Reports Section -->
+    <section id="report">
+      <h2>Employee Report</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Project Completion</th>
+            <th>Customer Score</th>
+            <th>Collaboration</th>
+            <th>Performance Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Jane Doe</td>
+            <td>98%</td>
+            <td>9.5</td>
+            <td>10</td>
+            <td class="top-performer">92%</td>
+          </tr>
+          <tr>
+            <td>John Smith</td>
+            <td>85%</td>
+            <td>8.5</td>
+            <td>9</td>
+            <td>84%</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Top Performers Section -->
+    <section id="top">
+      <h2>Top Performers</h2>
+      <ul class="top-list">
+        <li>Jane Doe – Eligible for Bonus + Promotion</li>
+        <li>Michael Lee – Eligible for Training Opportunity</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Horizon Tech Solutions</p>
+  </footer>
+</body>
+</html>
